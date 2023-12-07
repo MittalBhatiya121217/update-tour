@@ -118,16 +118,17 @@
     </section>
 
     <section class="container">
-        <div class="filter-bar">
-            <label for="search">Search:</label>
-            <input type="text" id="search" placeholder="Search...">
-            <select>
-                <option value="all">All Tours</option>
-                <option value="beach">Beach Tours</option>
-                <option value="mountain">Mountain Tours</option>
-                <!-- Add more filter options as needed -->
-            </select>
-        </div>
+       <div class="filter-bar">
+    <label for="search">Search:</label>
+    <input type="text" id="search" placeholder="Search...">
+    <label for="tour-category">Filter by:</label>
+    <select id="tour-category">
+        <option value="all">All Tours</option>
+        <option value="beach">Beach Tours</option>
+        <option value="mountain">Mountain Tours</option>
+        <!-- Add more filter options as needed -->
+    </select>
+</div>
 
         <div class="tour-card">
             <img src="tour-image.jpg" alt="Tour Image">
